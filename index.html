@@ -1,88 +1,51 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Giới thiệu bản thân</title>
-    <style>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #f1f1f1;
+}
 
-        body {
-            font-family: 'Arial', sans-serif;
-            background-color: #f4f4f9;
-            margin: 0;
-            padding: 0;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-        }
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
 
-        .container {
-            text-align: center;
-            background-color: #fff;
-            width: 90%;
-            max-width: 600px;
-            padding: 30px;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-        }
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
 
-        .profile-img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 20px;
-        }
-
-        h1 {
-            font-size: 2.5em;
-            margin: 10px 0;
-            color: #333;
-        }
-
-        h2 {
-            font-size: 1.5em;
-            color: #555;
-            margin-bottom: 20px;
-        }
-
-        p {
-            font-size: 1.1em;
-            color: #777;
-            line-height: 1.6;
-        }
-
-        .social-links {
-            margin-top: 20px;
-        }
-
-        .social-links a {
-            margin: 0 10px;
-            text-decoration: none;
-            color: #333;
-            font-size: 1.5em;
-        }
-
-        .social-links a:hover {
-            color: #007BFF;
-        }
-    </style>
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+ul{
+    height: 400px;
+  width: 700px;
+  text-align: center;
+  font-size: 25px ;
+}
+</style>
 </head>
 <body>
 
-    <div class="container">
-        <img src="https://tintuc.dienthoaigiakho.vn/wp-content/uploads/2024/01/avatar-trang-nu-1.jpg" alt="Ảnh đại diện" class="profile-img">
-        <h1>Dương Chi </h1>
-        <h2>Sinh viên năm nhất - ĐH Thủ Đô Hà Nội </h2>
-        <p>Chào bạn,tôi ở Hưng Yên, tôi là một người hòa đồng, thân thiện và luôn thích khám phá những điều mới mẻ trong cuộc sống. </p>
-
-        <div class="social-links">
-            <a href="https://www.facebook.com/chi.duong.16547" target="_blank">FB</a>
-            <a href="http://www.instagram.com/duongchi4u" target="_blank">INSTAGRAM </a>
-         
-        </div>
-    </div>
+<ul>
+  <li><a class="active" href="#home">Bài tập buổi 4 </a></li>
+  <li><a href="http://127.0.0.1:5500/b4(5/b1.html">Bài 1</a></li>
+  <li><a href="http://127.0.0.1:5500/b4(5/b1b.html">Bài 1b </a></li>
+  <li><a href="http://127.0.0.1:5500/b4(5/b2.html">Bài 2 </a></li>
+  <li><a href="https://duongchi76.github.io/b3web/">Bài 3.1 </a></li>
+  <li><a href="https://duongchi76.github.io/thi-t-k-/">Bài3.3a</a></li>
+  <li><a href="http://127.0.0.1:5500/b4(5/33b.html">Bài 3.3b </a></li>
+  <li><a href="https://duongchi76.github.io/web3/">Bài 4 </a></li>
+</ul>
 
 </body>
 </html>
